@@ -2,11 +2,11 @@
 
 The Vircadia ecosystem is comprised of many components.
 
-* Clients
-  * Web (All platforms) *Coming soon*
-  * Native (Windows, Linux, MacOS)
-* Domain Server (Windows, Linux)
-* Metaverse Server (Windows, Linux)
+* [Clients](../interfaces/)
+  * [Web Interface](../interfaces/web/) (All platforms)
+  * [Native Interface](../interfaces/native/) (Windows, Linux, MacOS)
+* [Domain Server](../domain-server/) (Windows, Linux)
+* [Metaverse Server](../metaverse-server/) (Windows, Linux)
   * Dashboard (...)
-* SDKs
-  * Web
+* [SDKs](../sdks/)
+  * [Web](../sdks/web/)
