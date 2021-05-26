@@ -17,7 +17,7 @@
 
             <blockquote>{{ getMsg() }}</blockquote>
 
-            <p>Were you trying to get to the user documentation? Take me <a @click="redirectToUserDocs">there</a>.</p>
+            <p>Were you trying to get to the user documentation? Take me <a href="#" @click="redirectToUserDocs">there</a>.</p>
 
             <RouterLink :to="homeLink">{{ homeText }}</RouterLink>
         </div>
