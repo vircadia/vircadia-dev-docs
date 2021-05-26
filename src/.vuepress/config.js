@@ -1,3 +1,15 @@
+//
+//  config.js
+//
+//  Created by Kalila L. on May 25th, 2021.
+//  Copyright 2021 Vircadia contributors.
+//
+//  Distributed under the Apache License, Version 2.0.
+//  See the accompanying file LICENSE or http://www.apache.org/licenses/LICENSE-2.0.html
+//
+
+const { path } = require('@vuepress/utils')
+
 const { productName } = require('../../package')
 const { description } = require('../../package')
 const { repository } = require('../../package')
@@ -22,6 +34,9 @@ module.exports = {
     //     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     //     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
     // ],
+
+    // All theme overrides should go in that folder.
+    theme: path.resolve(__dirname, 'theme'),
 
     /**
     * Theme configuration, here is the default theme configuration for VuePress.
