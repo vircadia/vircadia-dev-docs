@@ -53,6 +53,10 @@ module.exports = {
         editLinkPattern: ':repo/edit/:branch/:path',
         navbar: [
             {
+                text: 'Website',
+                link: 'https://vircadia.com'
+            },
+            {
                 text: 'Scripting API Docs',
                 link: 'https://apidocs.vircadia.dev'
             },

@@ -13,11 +13,13 @@
 <template>
     <div class="theme-container">
         <div class="theme-default-content">
-            <h1>404</h1>
+            <h1>Oops.</h1>
 
             <blockquote>{{ getMsg() }}</blockquote>
 
-            <p>Were you trying to get to the user documentation? Take me <a href="#" @click="redirectToUserDocs">there</a>.</p>
+            <h3>Were you trying to get to the user documentation? Take me <a href="#" @click="redirectToUserDocs">there</a>.</h3>
+
+            <br/>
 
             <RouterLink :to="homeLink">{{ homeText }}</RouterLink>
         </div>
