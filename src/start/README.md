@@ -12,6 +12,8 @@ The Vircadia ecosystem is comprised of many components.
   * Dashboard (...)
 * [SDKs](../sdks/)
   * [Web](../sdks/web/)
+* [Tools](../tools/)
+  * [Vircadia Builder](../tools/vircadia-builder) (Linux)
 
 ## Release Cycle
 
@@ -26,4 +28,4 @@ Vircadia's primary components are released in the following order:
 
 Components that are early in their development cycle are updated instantly and independently, usually with little testing. This is to allow for quick and agile development.
 
-> **_NOTE:_** Components follow [semantic versioning](https://semver.org/) guidelines.
+> **_NOTE:_** Component versions follow [semantic versioning](https://semver.org/) guidelines.
