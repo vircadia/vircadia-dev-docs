@@ -1,6 +1,6 @@
 # Introduction
 
-The Vircadia ecosystem is comprised of many components.
+The Vircadia virtual world ecosystem is comprised of many components.
 
 ## Ecosystem
 
