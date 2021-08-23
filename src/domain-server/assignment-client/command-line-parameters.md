@@ -70,3 +70,7 @@ PID of the parent process
 ```
 --parent-pid <pid>
 ```
+Disable auto-discovery of a Domain server's port on the local machine
+```
+--disable-domain-port-auto-discovery
+```
