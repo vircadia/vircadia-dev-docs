@@ -36,9 +36,94 @@ A test conducted under these conditions during a live conference in world yielde
 
 Under a configuration with more cores, a performance tuned audio codec, and splitting assignment clients across multiple servers it is possible to support many hundreds of users in real-time, in a single instance.
 
-## [Assignment Client](./assignment-client/)
+## Assignment Client
 
-The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world.
+The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. Six types are defined and the domain server will spin up one instance of each:
+
+* **Asset Server** - Allows the upload and download of files from the server.
+* **Audio Mixer** - Receives all audio streams and mixes them into single streams to send out to each node (user).
+* **Avatar Mixer** - Receives all avatar and joint data and mixes them into single streams to send out to each node (user).
+* **Entity Mixer** - Handles the state of all entities and their respective properties in a virtual world.
+* **Entity Script Server** - Provides server side scripting functionality.
+* **Messaging Mixer** - Handles all messaging activity between nodes on the domain (users).
+
+### Command Line Parameters for Assignment Client
+
+You can launch an assignment client with these parameters.
+
+Displays help information
+```
+-h, --help
+```
+Displays version information
+```
+-v, --version
+```
+Assignment client type
+```
+-t <type>
+```
+* 0 = audio-mixer
+* 1 = avatar-mixer
+* 2 = agent
+* 3 = asset-server
+* 4 = message-mixer
+* 5 = entity-script-server
+* 6 = entity-server
+
+Assignment pool
+```
+--pool <pool>
+```
+Assignment client UDP port
+```
+-p <port>
+```
+Wallet destination
+```
+--wallet <wallet-uuid>
+```
+Assignment server hostname
+```
+-a <hostname>
+```
+Assignment server port
+```
+--server-port <port>
+```
+Number of children to fork
+```
+-n <child-count>
+```
+Minimum number of children
+```
+--min <child-count>
+```
+Maximum number of children
+```
+--max <child-count>
+```
+Assignment client monitor port
+```
+--monitor-port <port>
+```
+HTTP status server port
+```
+--http-status-port <port>
+```
+Directory to store logs
+```
+--log-directory <path>
+```
+PID of the parent process
+```
+--parent-pid <pid>
+```
+Disable auto-discovery of a Domain server's port on the local machine
+```
+--disable-domain-port-auto-discovery
+```
+
 
 ## [Command Line Parameters](./command-line-parameters.md)
 ## [Environment Variables](./environment-variables.md)
