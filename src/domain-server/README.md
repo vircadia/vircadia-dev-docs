@@ -8,6 +8,9 @@ The Vircadia Domain server is developed in this [repository](https://github.com/
     1. [VCPKG](https://github.com/microsoft/vcpkg)
     1. [CMake](https://cmake.org/)
 
+### [Command Line Parameters](./command-line-parameters.md)
+### [Environment Variables](./environment-variables.md)
+
 ## Features
 
 * Networking
@@ -26,22 +29,15 @@ The Vircadia Domain server is developed in this [repository](https://github.com/
     * Realtime spatial audio for all clients
     * Server-wide text messaging
 
-### Performance
+## Performance
 
 * Specs: Amazon EC2 C5a (32 AMD Epyc cores)
-* Audio Codec: Opus, tuned for quality.
+* Audio Codec: Opus, tuned for quality
 * All mixers on the same instance
 
 A test conducted under these conditions during a live conference in world yielded 4.5 users per core with 32 cores, therefore maxing out at 140 users.
 
 Under a configuration with more cores, a performance tuned audio codec, and splitting assignment clients across multiple servers it is possible to support many hundreds of users in real-time, in a single instance.
-
-## [Assignment Client](./assignment-client/)
-
-The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world.
-
-## [Command Line Parameters](./command-line-parameters.md)
-## [Environment Variables](./environment-variables.md)
 
 ## Compiling from Source
 
@@ -55,3 +51,20 @@ Specific build information for each platform:
 ## Packaging
 
 All packaging specific information and steps for the Vircadia Domain server can be found [here](https://github.com/vircadia/vircadia/blob/master/INSTALLER.md#creating-an-installer).
+
+## Configuration
+
+For configuration instructions, see the [Hosting section of the user docs](https://docs.vircadia.com/host.html).
+
+## Assignment Client
+
+### [Command Line Parameters for Assignment Client](./command-line-parameters-for-assignment-client.md)
+
+The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. Six types are defined and the domain server will spin up one instance of each:
+
+* **Asset Server** - Allows the upload and download of files from the server.
+* **Audio Mixer** - Receives all audio streams and mixes them into single streams to send out to each node (user).
+* **Avatar Mixer** - Receives all avatar and joint data and mixes them into single streams to send out to each node (user).
+* **Entity Mixer** - Handles the state of all entities and their respective properties in a virtual world.
+* **Entity Script Server** - Provides server side scripting functionality.
+* **Messaging Mixer** - Handles all messaging activity between nodes on the domain (users).

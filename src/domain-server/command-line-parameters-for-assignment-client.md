@@ -1,4 +1,4 @@
-# Command Line Parameters
+# Command Line Parameters for Assignment Client
 
 You can launch an assignment client with these parameters.
 
