@@ -56,9 +56,9 @@ All packaging specific information and steps for the Vircadia Domain server can 
 
 For configuration instructions, see the [Hosting section of the user docs](https://docs.vircadia.com/host.html).
 
-## Assignment Client
+## Assignment Clients
 
-### [Command Line Parameters for Assignment Client](./command-line-parameters-for-assignment-client.md)
+### [Command Line Parameters for Assignment Clients](./command-line-parameters-for-assignment-clients.md)
 
 The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. Six types are defined and the domain server will spin up one instance of each:
 
