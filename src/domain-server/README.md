@@ -55,3 +55,7 @@ Specific build information for each platform:
 ## Packaging
 
 All packaging specific information and steps for the Vircadia Domain server can be found [here](https://github.com/vircadia/vircadia/blob/master/INSTALLER.md#creating-an-installer).
+
+## Configuration
+
+For configuration instructions, see the [Hosting section of the user docs](https://docs.vircadia.com/host.html).
