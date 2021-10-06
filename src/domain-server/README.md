@@ -20,7 +20,7 @@ The Vircadia Domain server is developed in this [repository](https://github.com/
     * The persisted state can be saved to a snapshot at any time
     * The persisted state is also backed up regularly through a rolling schedule
 * Scalability & Robustness
-    * To enable scaling for hundreds or thousands of users in one instance, all major functions (avatars, entities, assets, messaging, etc.) are broken out into sub processes called [Assignment clients](./assignment-client/)
+    * To enable scaling for hundreds or thousands of users in one instance, all major functions (avatars, entities, assets, messaging, etc.) are broken out into sub processes called Assignment clients
     * Due to the rapid start and stop of Assignment clients, the scaling of worlds and recovery of mixers in real-time is nearly instant
 * Functionality
     * Server side scripting in JavaScript
