@@ -1,7 +1,7 @@
 {
     "name": "vircadia-dev-docs",
     "productName": "Vircadia Developer Documentation",
-    "description": "Developer documentation for the Vircadia ecosystem.",
+    "description": "Technical documentation for the Vircadia ecosystem.",
     "version": "1.1.0",
     "private": true,
     "license": "Apache-2.0",

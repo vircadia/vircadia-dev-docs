@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'Vircadia Dev Docs',
-    tagline: 'Vircadia Developer Documentation',
+    tagline: 'Vircadia Technical Documentation',
     url: 'https://docs.vircadia.dev',
     baseUrl: '/',
     onBrokenLinks: 'throw',
