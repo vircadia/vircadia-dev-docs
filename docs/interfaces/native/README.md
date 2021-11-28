@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /interfaces/native
 ---
 
-# Native Interface
+# Overview
 
-The Vircadia native Interface is developed in this [repository](https://github.com/vircadia/vircadia) and uses the following stack:
+The Vircadia native Interface (codename Athena) is developed in this [repository](https://github.com/vircadia/vircadia) and uses the following stack:
 
 1. [Qt & QML](https://qt.io/) - C++ framework with UI components
 1. [OpenGL](https://www.opengl.org/) - Custom rendering engine implements OpenGL

@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /sdks/web
 ---
 
-# Web SDK
+# Overview
 
-The Vircadia Web SDK is developed in this [repository](https://github.com/vircadia/vircadia-web-sdk) and uses the following stack:
+The Vircadia Web SDK (codename Ananke) is developed in this [repository](https://github.com/vircadia/vircadia-web-sdk) and uses the following stack:
 
 1. [Webpack](https://webpack.js.org/) - Packaging
 1. [Babel](https://babeljs.io/) - Compilation

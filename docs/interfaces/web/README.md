@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /interfaces/web
 ---
 
-# Web Interface
+# Overview
 
-The Vircadia Web Interface is developed in this [repository](https://github.com/vircadia/vircadia-web) and uses the following stack:
+The Vircadia Web Interface (codename Aether) is developed in this [repository](https://github.com/vircadia/vircadia-web) and uses the following stack:
 
 1. [Quasar](https://quasar.dev/) - UI components
 1. [Vue.js](https://v3.vuejs.org/) - Reactive UI framework

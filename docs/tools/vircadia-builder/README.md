@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /vircadia-builder
 ---
 
-# Vircadia Builder
+# Overview
 
 The Vircadia Builder is developed in this [repository](https://github.com/vircadia/vircadia-builder) and uses the following stack:
 

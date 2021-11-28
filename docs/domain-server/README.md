@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /domain-server
 ---
 
-# Domain Server
+# Overview
 
-The Vircadia Domain server is developed in this [repository](https://github.com/vircadia/vircadia) and uses the following stack:
+The Vircadia Domain server (codename Athena) is developed in this [repository](https://github.com/vircadia/vircadia) and uses the following stack:
 
 1. HTML & JavaScript - Web based control panel
 1. [Qt](https://qt.io/) - C++ framework
