@@ -11,7 +11,7 @@
 -  Add antialiasing setting. [#1427](https://github.com/vircadia/vircadia/pull/1427)
 - [**web sdk**] Update WebRTC for Linux. [#1406](https://github.com/vircadia/vircadia/pull/1406)
 - [**domain-server**] Overhaul the Domain server's onboarding wizard. [#1344](https://github.com/vircadia/vircadia/pull/1344)
--  Housekeeping: Update use of Q_DISABLE_COPY. [#1352](https://github.com/vircadia/vircadia/pull/1352)
+- [**housekeeping**] Update use of Q_DISABLE_COPY. [#1352](https://github.com/vircadia/vircadia/pull/1352)
 - [**linux**] Add support for aarch64 (ARM) Linux builds on GitHub Actions. [#1346](https://github.com/vircadia/vircadia/pull/1346)
 -  Improve use of "#include <QtCore/QSharedPointer>" in codebase. [#1336](https://github.com/vircadia/vircadia/pull/1336)
 

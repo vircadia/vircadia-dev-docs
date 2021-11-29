@@ -38,10 +38,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
         navbar: {
-            title: 'Vircadia Dev Docs',
+            title: 'Dev Docs',
             logo: {
                 alt: 'Vircadia',
-                src: 'img/vircadia-icon-1024-tm.png',
+                src: 'img/vircadia-banner.png',
             },
             items: [
                 {
