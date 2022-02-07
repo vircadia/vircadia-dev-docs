@@ -1,5 +1,20 @@
 # Release Notes
 
+## v2022.1.2 (6/2/2022)
+
+## What's Changed
+* Increment version number to 2022.1.1. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/73
+* Update developer setup instructions. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/74
+* Make audio worklets able to be loaded from a relative path. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/75
+* Add SDK packaging instructions and update .gitignore. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/79
+* Fix AudioMixer.audioOutput property name. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/81
+* Add missing packet details links to packet type list. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/82
+* Add avatar orientations in MyAvatarInterface and AvatarListInterface. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/80
+* Fix ESLint dot-notation rule. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/85
+* Fix TypeScript .d.ts files not being found when using the SDK. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/87
+
+[Full changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.0...v2022.1.2)
+
 ## v2022.1.0 (3/12/2021)
 
 ### Enhancements
