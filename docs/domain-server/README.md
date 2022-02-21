@@ -34,16 +34,6 @@ The Vircadia Domain server (codename Athena) is developed in this [repository](h
     * Realtime spatial audio for all clients
     * Server-wide text messaging
 
-## Performance
-
-* Specs: Amazon EC2 C5a (32 AMD Epyc cores)
-* Audio Codec: Opus, tuned for quality
-* All mixers on the same instance
-
-A test conducted under these conditions during a live conference in world yielded 4.5 users per core with 32 cores, therefore maxing out at 140 users.
-
-Under a configuration with more cores, a performance tuned audio codec, and splitting assignment clients across multiple servers it is possible to support many hundreds of users in real-time, in a single instance.
-
 ## Compiling from Source
 
 You can find general build information [here](https://github.com/vircadia/vircadia/blob/master/BUILD.md#general-build-information).

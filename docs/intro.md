@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-The Vircadia virtual world ecosystem is comprised of many components.
+The Vircadia virtual world ecosystem is comprised of many components. [Understand the Architecture](https://docs.vircadia.com/explore/get-started/architecture.html)
 
 ## Ecosystem
 
