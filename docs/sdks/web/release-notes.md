@@ -37,12 +37,12 @@ Fixes bad build of 2022.1.3 release.
 * Fix skipping deleting an instanced trait when reading BulkAvatarTraits message. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/118
 * Replace non-functioning STUN server address. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/119
 
-## New Contributors
+### New Contributors
 * @julien-me made their first contribution in https://github.com/vircadia/vircadia-web-sdk/pull/93
 
 **Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.2...v2022.1.3
 
-## v2022.1.2 (6/2/2022)
+## v2022.1.2 (6 Feb 2022)
 
 ### What's Changed
 * Increment version number to 2022.1.1. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/73
@@ -57,7 +57,7 @@ Fixes bad build of 2022.1.3 release.
 
 [Full changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.0...v2022.1.2)
 
-## v2022.1.0 (3/12/2021)
+## v2022.1.0 (3 Dec 2021)
 
 ### Enhancements
 * Add initial audio mixer API functionality. by @ctrlaltdavid in [#28](https://github.com/vircadia/vircadia-web-sdk/pull/28)
