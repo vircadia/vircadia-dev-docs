@@ -1,5 +1,16 @@
 # Release Notes
 
+## v2022.1.4 (28 Jun 2022)
+
+Fixes bad build of 2022.1.3 release.
+
+### What's Changed
+* Update README.md. by @digisomni in https://github.com/vircadia/vircadia-web-sdk/pull/120
+* Release preparations. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/123
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.3...v2022.1.4
+
+
 ## v2022.1.3 (27 Jun 2022)
 
 ### What's Changed
