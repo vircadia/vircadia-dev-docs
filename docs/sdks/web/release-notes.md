@@ -2,7 +2,7 @@
 
 ## v2022.1.5 (5 Jul 2022)
 
-Handles the default domain viewpoint path (/) when connecting to a domain, Additionally, a path can be specified in the URL being connected to, e.g., `wss:/n.n.n.n:10402/somewhere`.
+Handles the default domain viewpoint path (/) when connecting to a domain, Additionally, a path can be specified in the URL being connected to, e.g., `wss://n.n.n.n:40102/somewhere`.
 
 ### What's Changed
 * Reduce number of OctreePacketProcessor warnings logged. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/127
