@@ -1,5 +1,17 @@
 # Release Notes
 
+## v2022.1.5 (5 Jul 2022)
+
+Handles the default domain viewpoint path (/) when connecting to a domain, Additionally, a path can be specified in the URL being connected to, e.g., `wss:/n.n.n.n:10402/somewhere`.
+
+### What's Changed
+* Reduce number of OctreePacketProcessor warnings logged. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/127
+* Provide the domain's default avatar position. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/126
+* Bump version number and package files. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/129
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.4...v2022.1.5
+
+
 ## v2022.1.4 (28 Jun 2022)
 
 Fixes bad build of 2022.1.3 release.
