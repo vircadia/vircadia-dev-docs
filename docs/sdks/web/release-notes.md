@@ -1,5 +1,22 @@
 # Release Notes
 
+
+## v2022.1.6 (1 Aug 2022)
+
+Provides the Model and Shape entities (with all their properties) in the domain.
+
+### What's Changed
+* Provide Model entity data. by @julien-me in https://github.com/vircadia/vircadia-web-sdk/pull/108
+* Resolve entity packet reading details. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/134
+* Provide Shape entity data. by @julien-me in https://github.com/vircadia/vircadia-web-sdk/pull/135
+* Fix Model entity reading method by @julien-me in https://github.com/vircadia/vircadia-web-sdk/pull/142
+* Skip over unsupported entity types. by @julien-me in https://github.com/vircadia/vircadia-web-sdk/pull/143
+* Add Model and Shape entities support. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/145
+* Housekeeping by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/148
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.5...v2022.1.6
+
+
 ## v2022.1.5 (5 Jul 2022)
 
 Handles the default domain viewpoint path (/) when connecting to a domain, Additionally, a path can be specified in the URL being connected to, e.g., `wss://n.n.n.n:40102/somewhere`.
