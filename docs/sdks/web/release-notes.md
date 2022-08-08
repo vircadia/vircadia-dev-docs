@@ -1,9 +1,25 @@
 # Release Notes
 
 
+## v2022.1.7 (9 Aug 2022)
+
+Provides the Image, Light, Text, and Web entities in the domain.
+
+### What's Changed
+* Add Image and Text entity reading. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/151
+* Merge master into entity-data branch. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/152
+* Add Light and Web entity reading. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/154
+* Fix some user documentation. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/158
+* Return `""` instead of `undefined` for zero-length string properties read. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/156
+* Provide Image, Text, Web, and Light entities. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/159
+* Update package-lock.json. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/160
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.6...v2022.1.7
+
+
 ## v2022.1.6 (1 Aug 2022)
 
-Provides the Model and Shape entities (with all their properties) in the domain.
+Provides the Model and Shape entities in the domain.
 
 ### What's Changed
 * Provide Model entity data. by @julien-me in https://github.com/vircadia/vircadia-web-sdk/pull/108
