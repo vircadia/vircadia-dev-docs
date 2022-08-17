@@ -1,6 +1,22 @@
 # Release Notes
 
 
+## v2022.1.8 (17 Aug 2022)
+
+Provides the Material, Zone, and ParticleEffect entities in the domain.
+
+### What's Changed
+* Add Material entity reading. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/162
+* Fix Uuid user documentation links. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/163
+* Add unit tests for reading Web and Light entity packets. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/164
+* Add Zone entity reading. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/165
+* Add ParticleEffect entity reading. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/166
+* Tidy entities properties documentation. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/169
+* Update package-lock.json. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/170
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.7...v2022.1.8
+
+
 ## v2022.1.7 (9 Aug 2022)
 
 Provides the Image, Light, Text, and Web entities in the domain.
