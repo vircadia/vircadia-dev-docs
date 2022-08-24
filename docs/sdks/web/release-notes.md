@@ -1,5 +1,21 @@
 # Release Notes
 
+## v2022.1.9 (25 Aug 2922)
+
+Improves connectivity to the domain server &mdash; domain server restarts, assignment client restarts, network interruptions.
+
+### What's Changed
+
+## What's Changed
+* Handle domain server starting, restarting, and stopping. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/171
+* Handle assignment client restarts. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/172
+* Handle network interruptions. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/173
+* Fix ComponentMode unit test file type. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/180
+* Clear example app's entity list upon entity server disconnect. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/179
+* Update package-lock.json. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web-sdk/pull/181
+
+**Full Changelog**: https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.8...v2022.1.9
+
 
 ## v2022.1.8 (17 Aug 2022)
 
