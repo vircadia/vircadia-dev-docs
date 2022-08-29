@@ -1,5 +1,17 @@
 # Release Notes
 
+
+## v2022.1.10 (30 Aug 2922)
+
+Provides non-admin facilities for the "People" app: users' audio loudness, set volumes for each user, mute a user, ignore a user, request data continue to be provided for muted / ignored users.
+
+### What's Changed
+* Delete traits for removed avatar. by @ctrlaltdavid in [#184](https://github.com/vircadia/vircadia-web-sdk/pull/184)
+* Add DomainServer.users interface for working with users in the domain. by @ctrlaltdavid in [#186](https://github.com/vircadia/vircadia-web-sdk/pull/186)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.9...v2022.1.10)
+
+
 ## v2022.1.9 (25 Aug 2922)
 
 Improves connectivity to the domain server &mdash; domain server restarts, assignment client restarts, network interruptions.
