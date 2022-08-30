@@ -1,7 +1,18 @@
 # Release Notes
 
 
-## v2022.1.10 (30 Aug 2922)
+## v2022.1.11 (30 Aug 2022)
+
+Improves network connectivity.
+
+## What's Changed
+* Revert networking timeouts to native client values. by @ctrlaltdavid in [#187](https://github.com/vircadia/vircadia-web-sdk/pull/187)
+* Update unit test. by @ctrlaltdavid in [#188](https://github.com/vircadia/vircadia-web-sdk/pull/188)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.10...v2022.1.11)
+
+
+## v2022.1.10 (30 Aug 2022)
 
 Provides non-admin facilities for the "People" app: users' audio loudness, set volumes for each user, mute a user, ignore a user, request data continue to be provided for muted / ignored users.
 
