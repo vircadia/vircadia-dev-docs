@@ -1,11 +1,21 @@
 # Release Notes
 
 
+## v2022.1.12 (31 Aug 2022)
+
+Improves making a connection to a domain.
+
+### What's Changed
+* Don't overwrite "open" state. by @ctrlaltdavid in [#191](https://github.com/vircadia/vircadia-web-sdk/pull/191)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.11...v2022.1.12)
+
+
 ## v2022.1.11 (30 Aug 2022)
 
 Improves network connectivity.
 
-## What's Changed
+### What's Changed
 * Revert networking timeouts to native client values. by @ctrlaltdavid in [#187](https://github.com/vircadia/vircadia-web-sdk/pull/187)
 * Update unit test. by @ctrlaltdavid in [#188](https://github.com/vircadia/vircadia-web-sdk/pull/188)
 
