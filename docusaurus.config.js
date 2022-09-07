@@ -104,7 +104,7 @@ const config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Vircadia contributors.`,
+            copyright: `Copyright © ${new Date().getFullYear()} DigiSomni LLC. | Copyright © ${new Date().getFullYear()} Vircadia contributors.`,
         },
         prism: {
             theme: lightCodeTheme,
