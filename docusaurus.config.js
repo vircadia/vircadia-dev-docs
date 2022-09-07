@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Vircadia Dev Docs',
+    title: 'Vircadia Developer Docs',
     tagline: 'Vircadia Technical Documentation',
     url: 'https://docs.vircadia.dev',
     baseUrl: '/',
@@ -38,7 +38,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
         navbar: {
-            title: 'Dev Docs',
+            title: 'Developer Docs',
             logo: {
                 alt: 'Vircadia',
                 src: 'img/vircadia-banner.png',
@@ -65,11 +65,11 @@ const config = {
                     items: [
                         {
                             label: 'API Docs',
-                            to: 'https://apidocs.vircadia.dev/',
+                            to: 'https://apidocs.vircadia.dev/'
                         },
                         {
                             label: 'User Docs',
-                            to: 'https://docs.vircadia.com/',
+                            to: 'https://docs.vircadia.com/'
                         }
                     ],
                 },
@@ -78,11 +78,15 @@ const config = {
                     items: [
                         {
                             label: 'Forum',
-                            href: 'https://forum.vircadia.com/',
+                            href: 'https://forum.vircadia.com/'
                         },
                         {
                             label: 'Discord',
-                            href: 'https://discordapp.com/invite/Pvx2vke',
+                            href: 'https://discordapp.com/invite/Pvx2vke'
+                        },
+                        {
+                            label: 'Matrix',
+                            href: 'https://matrix.to/#/#vircadia:matrix.vircadia.org'
                         }
                     ],
                 },
