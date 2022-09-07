@@ -55,11 +55,11 @@ For configuration instructions, see the [Hosting section of the user docs](https
 
 ### [Command Line Parameters for Assignment Clients](./command-line-parameters-for-assignment-clients.md)
 
-The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. Six types are defined and the domain server will spin up one instance of each:
+The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. There are currently six types and the Domain server will spin up one instance of each. They all connect directly to the client for maximum performance and reliability:
 
 * **Asset Server** - Allows the upload and download of files from the server.
 * **Audio Mixer** - Receives all audio streams and mixes them into single streams to send out to each node (user).
 * **Avatar Mixer** - Receives all avatar and joint data and mixes them into single streams to send out to each node (user).
 * **Entity Mixer** - Handles the state of all entities and their respective properties in a virtual world.
 * **Entity Script Server** - Provides server side scripting functionality.
-* **Messaging Mixer** - Handles all messaging activity between nodes on the domain (users).
+* **Messsages Mixer** - Handles all messaging activity between nodes on the domain (users).

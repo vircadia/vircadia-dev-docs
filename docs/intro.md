@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-The Vircadia virtual world ecosystem is comprised of many components. [Understand the Architecture](https://docs.vircadia.com/explore/get-started/architecture.html)
+The Vircadia open source metaverse ecosystem is comprised of many components. [Understand the Architecture](#understand-the-architecture)
 
 ## Ecosystem
 
@@ -38,6 +38,10 @@ Components that are early in their development cycle are updated instantly and i
 Component versions follow [semantic versioning](https://semver.org/) guidelines.
 
 :::
+
+## Understand the Architecture
+
+...
 
 ## License
 
