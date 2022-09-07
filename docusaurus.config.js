@@ -16,6 +16,11 @@ const config = {
     organizationName: 'vircadia', // Usually your GitHub org/user name.
     projectName: 'vircadia-dev-docs', // Usually your repo name.
 
+    i18n: {
+        defaultLocale: 'en',
+        locales: ['en'],
+    },
+
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -24,7 +29,6 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
-                    // Please change this to your repo.
                     editUrl: 'https://github.com/vircadia/vircadia-dev-docs/edit/master/',
                 },
                 theme: {
