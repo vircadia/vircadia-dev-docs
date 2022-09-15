@@ -1,6 +1,16 @@
 # Release Notes
 
 
+## v2022.1.13 (15 Sep 2022)
+
+Add AudioMixer avater orientation getter property.
+
+## What's Changed
+* Add avatar orientation getter property to AudioMixer. by @ctrlaltdavid in [#196](https://github.com/vircadia/vircadia-web-sdk/pull/196)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.12...v2022.1.13)
+
+
 ## v2022.1.12 (31 Aug 2022)
 
 Improves making a connection to a domain.
