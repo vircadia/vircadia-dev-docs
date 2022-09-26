@@ -1,6 +1,16 @@
 # Release Notes
 
 
+## v2022.1.14 (26 Sep 2022)
+
+Fix avatar skeleton data handling.
+
+### What's Changed
+* Fix avatar skeleton data handling. by @ctrlaltdavid in [#214](https://github.com/vircadia/vircadia-web-sdk/pull/214)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.13...v2022.1.14)
+
+
 ## v2022.1.13 (15 Sep 2022)
 
 Add AudioMixer avatar orientation getter property.
