@@ -15,7 +15,7 @@ Fix avatar skeleton data handling.
 
 Add AudioMixer avatar orientation getter property.
 
-## What's Changed
+### What's Changed
 * Add avatar orientation getter property to AudioMixer. by @ctrlaltdavid in [#196](https://github.com/vircadia/vircadia-web-sdk/pull/196)
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.12...v2022.1.13)
@@ -58,8 +58,6 @@ Provides non-admin facilities for the "People" app: users' audio loudness, set v
 Improves connectivity to the domain server &mdash; domain server restarts, assignment client restarts, network interruptions.
 
 ### What's Changed
-
-## What's Changed
 * Handle domain server starting, restarting, and stopping. by @ctrlaltdavid in [#171](https://github.com/vircadia/vircadia-web-sdk/pull/171)
 * Handle assignment client restarts. by @ctrlaltdavid in [#172](https://github.com/vircadia/vircadia-web-sdk/pull/172)
 * Handle network interruptions. by @ctrlaltdavid in [#173](https://github.com/vircadia/vircadia-web-sdk/pull/173)
