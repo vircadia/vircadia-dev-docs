@@ -1,6 +1,16 @@
 # Release Notes
 
 
+## v2022.1.15 (5 Oct 2022)
+
+Improve audio output buffering for better quality audio.
+
+### What's Changed
+* Fix audio output choppiness. by @ctrlaltdavid in [#216](https://github.com/vircadia/vircadia-web-sdk/pull/216)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.14...v2022.1.15)
+
+
 ## v2022.1.14 (26 Sep 2022)
 
 Fix avatar skeleton data handling.
