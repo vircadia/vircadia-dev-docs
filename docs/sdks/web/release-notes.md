@@ -1,6 +1,16 @@
 # Release Notes
 
 
+## v2022.1.16 (10 Oct 2022)
+
+Fixed audio input sampling for Firefox.
+
+### What's Changed
+* Fix audio input resampling for Firefox. by @ctrlaltdavid in [#218](https://github.com/vircadia/vircadia-web-sdk/pull/218)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.15...v2022.1.16)
+
+
 ## v2022.1.15 (5 Oct 2022)
 
 Improve audio output buffering for better quality audio.
