@@ -53,7 +53,7 @@ For configuration instructions, see the [Hosting section of the user docs](https
 
 ## Assignment Clients
 
-### [Command Line Parameters for Assignment Clients](./command-line-parameters-for-assignment-clients.md)
+[Command Line Parameters for Assignment Clients](./command-line-parameters-for-assignment-clients.md)
 
 The Domain server deploys a type of server called an Assignment client to provide different functionalities to a virtual world. There are currently six types and the Domain server will spin up one instance of each. They all connect directly to the client for maximum performance and reliability:
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 slug: /
 ---
 
@@ -41,157 +41,45 @@ Component versions follow [semantic versioning](https://semver.org/) guidelines.
 
 ## Understand the Architecture
 
+### Architecture Overview
 
-Vircadia's architecture shows how different parts of the system work
-together to give you the best VR experience.
+Vircadia's architecture consists of the following components that work together to form a resilient and complete experience.
 
-###### On this page: ######
-- [Understand the Architecture](#understand-the-architecture)
-  - [Architecture Overview](#architecture-overview)
-  - [Domain Server](#domain-server)
-  - [Global Services](#global-services)
-
-## Architecture Overview
-
-Vircadia's architecture consists of the following components that work
-together and send data to each other for your VR experience.
-
--   The [Vircadia Interface](#vircadia-interface) runs your personal
-    experience in the metaverse. With it, you can
-    `visit VR worlds <../travel>`,
-    `meet people <../socialize>`, [attend
-    live events](../socialize.html#attend-live-events) and more.
--   The [Domain Server](#domain-server) is the server that hosts a
-    domain. The domain server hosts the content in the domain, and
-    manages the
-    `domain-wide settings <../../host/configure-settings>`{.interpreted-text
-    role="doc"}, such as audio spatialization, user permissions, and
-    running scripts.
--   The [Global Services](#global-services) connect all of the servers
-    together. An instance of these services are maintained by Vircadia
-    so that you can sign in and move seamlessly between places.
+- The [Interface](#interface) is how users create, interact with, and live within virtual worlds.
+- The [Domain Server](#domain-server) is the server that hosts a domain. The domain server hosts the content in the domain, and manages the domain-wide settings, such as audio spatialization, user permissions, running scripts, and more.
+- The [Global Services](#global-services) connect all of the domains (servers) together. An instance of these services are maintained by Vircadia for development purposes.
 
 ![alt text](_images/overview.png)
 
-## Vircadia Interface
+### Interface
 
-The Vircadia Interface (or simply 'Interface') is the main user
-interface for Vircadia. It is used to explore the metaverse and engage
-with people from around the world. When you enter a domain, your
-Interface connects with the [domain server](#domain-server) that is
-hosting the virtual world, alongside any [global
-services](#global-services).
-
-You can download and use the Interface on your computer or your Android
-phone using the [Client-Only
-Installer](install.html#client-only-installer).
+A Vircadia Interface (or simply 'Interface') is one of two user interfaces developed by Vircadia, a developer Interface, and the end-user web Interface. These are used to explore the metaverse and engage with people from around the world. When a user enters a domain, their Interface connects with the [domain server](#domain-server) that is hosting the virtual world, alongside any [global services](#global-services).
 
 ![alt text](_images/interface.png)
 
-### Physics Engine
+### Domain Server
 
-Your VR experience won't be realistic without some physics. Vircadia
-includes a [physics engine](http://bulletphysics.org) that simulates
-behaviors of objects according to the Newtonian laws of physics. When an
-object falls to the ground and bounces, or when two or more objects
-collide, their movements are computed by the physics engine.
-
-Each Interface runs its own physics engine, and the entity server
-coordinates the results to produce a consistent simulation across the
-entire domain.
-
-## Domain Server
-
-A domain is a spatial simulation in Vircadia that you can visit. It is
-computed by a stack of programs on one or more computers. You need a
-domain's
-`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to
-visit a website.
-
-You can
-`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to
-make it available to other users. Your domain\'s server stack is a set
-of components that simulate and manage different aspects of the domain
-such as audio, entities, and avatars. Everything that you see, hear, and
-do in your domain is managed by the server stack.
+A domain is the real-time spatial simulation that users visit. It is computed by a stack of programs on one or more servers. The domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that a user will see, hear, and do in a domain is managed by the server stack.
 
 ![alt text](_images/domain-server.png)
 
-### Server Stack
+#### Server Stack
 
-The Domain server is at the top of this stack and its job is to give out
-assignments to the other components. These components are called
-Assignment Clients, because from the perspective of the domain server,
-they are clients that take on different roles.
+The Domain server is at the top of this stack and its job is to give out assignments to the other components. These components are called [Assignment Clients](/domain-server#assignment-clients), because from the perspective of the domain server, they are clients that take on different roles.
 
-The server stack is not only controlling, managing and computing your
-domain as you see it, but also how it is seen by anyone visiting your
-domain. This means that the domain server hands out simulation
-assignments and provides their IP addresses to connecting Interface
-clients. The domain server is a single executable that spawns assignment
-clients that become the different mixers as requested. Each assignment
-client can function as one of the six types mentioned. The domain server
-determines which assignment client functions as which mixer.
+The server stack is managing and computing the domain as users see it. This means that the domain server hands out simulation assignments and provides their IP addresses to connecting Interface clients. The domain server is a single executable that spawns assignment clients that become the different mixers as requested. Each assignment client can function as one of the six types mentioned. The domain server determines which assignment client functions as which mixer.
 
-### Assignment Clients
+Because each assignment client is an independent process, it is possible to spread the load for a single world instance across multiple servers, e.g. deploy a domain's avatar mixer to an independent 64 core server whilst leaving all of the other mixers on a separate shared 64 core instance.
 
-Assignment clients control and manage various aspects of a domain. They
-also communicate directly with the Interface clients connected to a
-domain. There are six types of assignment clients:
+:::tip Note
 
-  ------------------------------------------------------------------------
-  Assignment   Description
-  Client       
-  ------------ -----------------------------------------------------------
-  Avatar Mixer This mixer is in charge of your virtual presence in any
-               domain. It keeps track of where you are, which avatar
-               you're wearing, and how you move around the domain. For
-               example, it tracks how you move your head while wearing a
-               Head Mounted Display (HMD).
+The domain server manages five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple servers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
 
-  Audio Mixer  Mixes all sounds, whether it's voice or environmental. And
-               it does this not just for avatars, but also for all the
-               entities in a domain. The Audio mixer can customize a
-               stereo mix for you based on your position relative to the
-               audio source.
-
-  Entity       Tracks all entities and their properties in a domain, from
-  Server       their description and position, to any behaviors attached
-               to them in a script. If an entity is modified, the change
-               is communicated to the entity server, which in turn relays
-               the information to all clients currently visiting the
-               domain.
-
-  Asset Server Provides copies of the models, audio files, scripts, and
-               other media used by the domain. It functions like a Web
-               server, but using protocols tuned to Vircadia's
-               architecture.
-
-  Agent        Executes user-written JavaScript programs. If you've
-               written a script to get your avatar to clap, or create a
-               bowling alley, the Agent will execute it. It can see
-               entities, avatars, and send audio.
-
-  Messages     Provides communication between scripts running in different
-  Mixer        programs connected to the domain, which could be Interfaces
-               or Agents.
-  ------------------------------------------------------------------------
-
-:::note
-
-Sandbox manages all these components on the domain server, five
-dedicated assignment clients, and as many agent assignments clients as
-needed. However, it is possible to spread the assignment clients over
-multiple computers, and even to divide each function among a hierarchy
-of assignment components, which may be on different computers. For
-instance, multiple audio mixers could be used to mix the audio in
-different geographic regions of the domain.
 :::
 
 ## Global Services
 
-Vircadia maintains global services to connect different servers
-together.
+Vircadia maintains global services to connect users and servers together.
 
 ![alt text](_images/services.png)
 
