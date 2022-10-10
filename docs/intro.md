@@ -51,19 +51,19 @@ Vircadia's architecture consists of the following components that work together 
 
 ![alt text](_images/overview.png)
 
-### Interface
+### [Interface](/interfaces)
 
 A Vircadia Interface (or simply 'Interface') is one of two user interfaces developed by Vircadia, a developer Interface, and the end-user web Interface. These are used to explore the metaverse and engage with people from around the world. When a user enters a domain, their Interface connects with the [domain server](#domain-server) that is hosting the virtual world, alongside any [global services](#global-services).
 
 ![alt text](_images/interface.png)
 
-### Domain Server
+### [Domain Server](/domain-server)
 
 A domain is the real-time spatial simulation that users visit. It is computed by a stack of programs on one or more servers. The domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that a user will see, hear, and do in a domain is managed by the server stack.
 
 ![alt text](_images/domain-server.png)
 
-#### Server Stack
+#### [Server Stack](/domain-server#assignment-clients)
 
 The Domain server is at the top of this stack and its job is to give out assignments to the other components. These components are called [Assignment Clients](/domain-server#assignment-clients), because from the perspective of the domain server, they are clients that take on different roles.
 
@@ -77,7 +77,7 @@ The domain server manages five dedicated assignment clients, and as many agent a
 
 :::
 
-## Global Services
+## [Global Services](/metaverse-server)
 
 Vircadia maintains global services to connect users and servers together.
 
