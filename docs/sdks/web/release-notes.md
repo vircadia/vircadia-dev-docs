@@ -1,6 +1,17 @@
 # Release Notes
 
 
+## v2022.1.17 (20 Oct 2022)
+
+Audio output improvements.
+
+### What's Changed
+* Handle droppable silent audio frames. by @ctrlaltdavid in [#228](https://github.com/vircadia/vircadia-web-sdk/pull/228)
+* Improve handling of audio output jitter buffer overflow. by @ctrlaltdavid in [#229](https://github.com/vircadia/vircadia-web-sdk/pull/229)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.16...v2022.1.17)
+
+
 ## v2022.1.16 (10 Oct 2022)
 
 Fixed audio input sampling for Firefox.
