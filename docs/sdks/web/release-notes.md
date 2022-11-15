@@ -1,6 +1,17 @@
 # Release Notes
 
 
+## v2022.1.18 (15 Nov 2022)
+
+Audio output improvements and an entity reading bug fix.
+
+### What's Changed
+* Handle audio output packet sequencing. by @ctrlaltdavid in [#233](https://github.com/vircadia/vircadia-web-sdk/pull/233)
+* Fix entity reading bug. by @ctrlaltdavid in [#235](https://github.com/vircadia/vircadia-web-sdk/pull/235)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.17...v2022.1.18)
+
+
 ## v2022.1.17 (20 Oct 2022)
 
 Audio output improvements.
