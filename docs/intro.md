@@ -41,7 +41,6 @@ Component versions follow [semantic versioning](https://semver.org/) guidelines.
 
 ## Understand the Architecture
 
-...
 Vircadia's architecture shows how different parts of the system work
 together to give you the best VR experience.
 
@@ -61,12 +60,6 @@ together to give you the best VR experience.
   - [Architecture Overview](#architecture-overview)
   - [Domain Server](#domain-server)
   - [Global Services](#global-services)
-
-## Architecture Overview
-
-Vircadia's architecture consists of the following components that work
-together and send data to each other for your VR experience.
-
 -   The [Vircadia Interface](#vircadia-interface) runs your personal
     experience in the metaverse. With it, you can
     `visit VR worlds <../travel>`,
@@ -116,11 +109,10 @@ entire domain.
 A domain is a spatial simulation in Vircadia that you can visit. It is
 computed by a stack of programs on one or more computers. You need a
 domain's
-`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to
+[Place settings](https://docs.vircadia.com/host/configure-settings/place-setting.html) to visit a domain, just like you would need a web address to
 visit a website.
 
-You can
-`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to
+You can [set up your own domain](https://docs.vircadia.com/host/server-setup.html) and host it on your local machine or on a cloud server to
 make it available to other users. Your domain\'s server stack is a set
 of components that simulate and manage different aspects of the domain
 such as audio, entities, and avatars. Everything that you see, hear, and
