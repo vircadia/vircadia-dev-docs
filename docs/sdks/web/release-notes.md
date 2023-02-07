@@ -1,5 +1,23 @@
 # Release Notes
 
+## v2023.1.0 (8 Feb 2023)
+
+### What's Changed
+* Use metaverse OAuth for authentication on the domain. by @ctrlaltdavid in [#243](https://github.com/vircadia/vircadia-web-sdk/pull/243)
+* Add admin mute and kick capabilities. by @ctrlaltdavid in [#249](https://github.com/vircadia/vircadia-web-sdk/pull/249)
+* Fix for the subImage property on image entities not getting set correctly. by @Madders in [#245](https://github.com/vircadia/vircadia-web-sdk/pull/245)
+* Keep Axios at version 1.2.2. by @ctrlaltdavid in [#250](https://github.com/vircadia/vircadia-web-sdk/pull/250)
+* Temporarily disable resetting on session or local ID change. by @ctrlaltdavid in [#255](https://github.com/vircadia/vircadia-web-sdk/pull/255)
+* Double the received audio jitter buffer size. by @namark in [#237](https://github.com/vircadia/vircadia-web-sdk/pull/237)
+* Ramp audio packet volume up/down on either side of silent samples. by @namark in [#238](https://github.com/vircadia/vircadia-web-sdk/pull/238)
+* Add fingerprint code for browser environment. by @ctrlaltdavid in [#258](https://github.com/vircadia/vircadia-web-sdk/pull/258)
+* Update contributors list. by @ctrlaltdavid in [#260](https://github.com/vircadia/vircadia-web-sdk/pull/260)
+
+### New Contributors
+* @Madders made their first contribution in [#245](https://github.com/vircadia/vircadia-web-sdk/pull/245)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.18...v2023.1.0)
+
 
 ## v2022.1.18 (15 Nov 2022)
 
