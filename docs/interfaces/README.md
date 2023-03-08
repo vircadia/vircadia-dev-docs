@@ -19,4 +19,4 @@ Provides a versatile, performant, and accessible metaverse experience.
 
 ## [Native Interface](native/README.md)
 
-For development and testing using Windows, MacOS, and Linux.
+For development and testing using Windows, Linux, and macOS.
