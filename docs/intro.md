@@ -5,18 +5,33 @@ slug: /
 
 # Introduction
 
-The Vircadia open source metaverse ecosystem is comprised of many components. [Understand the Architecture](#understand-the-architecture)
+The Vircadia open source metaverse ecosystem comprises many components. [Understand the Architecture](#understand-the-architecture)
+
+## Why use Vircadia?
+
+- FLOSS – open-source licensing, free without restrictive conditions.
+- Decentralized – through federation and/or blockchain.
+- Always-connected systems – but always optional.
+- Scalable architecture – for worlds and the life within.
+
+### Comparisons
+
+* [Vircadia vs. Mozilla Hubs](comparisons/hubs)
+* [Vircadia vs. Omniverse](comparisons/omniverse)
+* [Vircadia vs. Horizon Worlds](comparisons/horizon-worlds)
+* [Vircadia vs. Roblox](comparisons/roblox)
 
 ## Ecosystem
 
-* [Clients](interfaces/README.md)
-  * [Web Interface](interfaces/web/README.md) (All platforms)
-  * [Developer Interface](interfaces/native/README.md) (Windows, Linux, macOS)
-* [Domain Server](domain-server/README.md) (Windows, Linux)
-* [Metaverse Server](metaverse-server/README.md) (Linux)
+* [Clients](interfaces)
+  * [Web Interface](interfaces/web) (All platforms)
+  * [Developer Interface](interfaces/native) (Windows, Linux, macOS)
+* [Domain Server](domain-server) (Windows, Linux)
+* [Metaverse Server](metaverse-server) (Linux)
   * Dashboard (...)
-* [SDKs](sdks/README.md)
-  * [Web](sdks/web/README.md)
+* [SDKs](sdks)
+  * [Web](sdks/web)
+  * [Unity](sdks/unity)
 
 ## Understand the Architecture
 
@@ -26,13 +41,13 @@ Vircadia's architecture consists of the following components that work together 
 
 - The [Interface](#interface) is how users create, interact with, and live within virtual worlds.
 - The [Domain Server](#domain-server) is the server that hosts a domain. The domain server hosts the content in the domain, and manages the domain-wide settings, such as audio spatialization, user permissions, running scripts, and more.
-- The [Global Services](#global-services) connect all of the domains (servers) together. An instance of these services are maintained by Vircadia for development purposes.
+- The [Metaverse Services](#metaverse-services) connect all of the domains (servers) together. An instance of these services are maintained by Vircadia for development purposes.
 
 ![alt text](_images/overview.png)
 
 ### [Interface](/interfaces)
 
-A Vircadia Interface (or simply 'Interface') is one of two user interfaces developed by Vircadia, a developer Interface, and the end-user web Interface. These are used to explore the metaverse and engage with people from around the world. When a user enters a domain, their Interface connects with the [domain server](#domain-server) that is hosting the virtual world, alongside any [global services](#global-services).
+A Vircadia Interface (or simply 'Interface') is one of two user interfaces developed by Vircadia, a developer Interface, and the end-user web Interface. These are used to explore the metaverse and engage with people from around the world. When a user enters a domain, their Interface connects with the [domain server](#domain-server) that is hosting the virtual world, alongside any [metaverse services](#metaverse-services).
 
 ![alt text](_images/interface.png)
 
@@ -56,9 +71,9 @@ The domain server manages five dedicated assignment clients, and as many agent a
 
 :::
 
-## [Global Services](/metaverse-server)
+## [Metaverse Services](/metaverse-server)
 
-Vircadia maintains global services to connect users and servers together.
+Vircadia maintains metaverse services to connect users and servers together.
 
 ![alt text](_images/services.png)
 
