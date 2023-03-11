@@ -42,20 +42,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
         navbar: {
-            title: 'Developer Docs',
+            title: 'Developer Documentation',
             logo: {
                 alt: 'Vircadia',
                 src: 'img/vircadia-banner.png',
             },
             items: [
                 {
-                    type: 'doc',
-                    docId: 'intro',
-                    position: 'left',
-                    label: 'Introduction',
+                    href: 'https://vircadia.com/',
+                    position: 'right',
+                    label: 'Website',
                 },
                 {
-                    href: 'https://github.com/vircadia/vircadia-dev-docs',
+                    href: 'https://github.com/vircadia/',
                     label: 'Git',
                     position: 'right',
                 },
@@ -67,10 +66,6 @@ const config = {
                 {
                     title: 'More Docs',
                     items: [
-                        {
-                            label: 'API Docs',
-                            to: 'https://apidocs.vircadia.dev/'
-                        },
                         {
                             label: 'User Docs',
                             to: 'https://docs.vircadia.com/'
@@ -109,6 +104,13 @@ const config = {
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} DigiSomni LLC. | Copyright © ${new Date().getFullYear()} Vircadia contributors.`,
+        },
+        announcementBar: {
+            id: 'integration_help',
+            content: '<a target="_blank" id="integration_help" rel="noopener noreferrer" href="https://vircadia.com/#contact">Need assistance integrating Vircadia with your company or organization? 🚀</a>',
+            backgroundColor: '#001A29',
+            textColor: '#CCCCCC',
+            isCloseable: false,
         },
         prism: {
             theme: lightCodeTheme,
