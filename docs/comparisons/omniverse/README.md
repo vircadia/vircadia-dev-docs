@@ -11,13 +11,13 @@ slug: /comparisons/omniverse
 
 Both Vircadia and Omniverse enable optimized workflows for the creation of virtual worlds, however only Vircadia maintains a full pipeline for deployment of those creations for public and private use through the web or native applications.
 
-## Creator's Platform
+## Developers's Platform vs End-to-End Creator's Platform
 
 Omniverse utilizes [USD (Universal Scene Description)](https://graphics.pixar.com/usd/release/index.html) as its primary way of structuring a scene. This format is not currently common, but has the potential to become an industry standard in the future. Omniverse's tooling allows developers to develop complex and high quality scenes in an optimized pipeline.
 
 Vircadia utilizes [glTF (GL Transmission Format)](https://www.khronos.org/gltf/) as its primary way of importing and exporting assets and scenes. This format is extremely common and is the industry standard for 3D models alongside the FBX format. Support for USD (Universal Scene Description) is scheduled to be added in a future version of Vircadia as an import/export format for scenes.
 
-Both platforms encourage real-time collaborative creation of worlds. Vircadia for example allows for all aspects (models, scripts, etc.) of a real-time production world to be edited collaboratively by administrators (and guests if desired).
+Both platforms encourage real-time collaborative creation of worlds. However, Omniverse is a "developer's platform", whereas Vircadia is an "end-to-end creator's platform". Vircadia allows for all aspects (models, scripts, etc.) of a real-time production world to be edited collaboratively by administrators (and guests if desired).
 
 ## License & Pricing
 
