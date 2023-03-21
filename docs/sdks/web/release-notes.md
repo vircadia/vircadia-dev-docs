@@ -1,5 +1,15 @@
 # Release Notes
 
+
+## v2023.1.1 (22 Mar 2023)
+
+### What's Changed
+* Fix npm install peer dependency errors. by @ctrlaltdavid in [#264](https://github.com/vircadia/vircadia-web-sdk/pull/264)
+* Fixed the order of audio frames coming out of audio input frame buffer. by @namark in [#269](https://github.com/vircadia/vircadia-web-sdk/pull/269)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.0...v2023.1.1)
+
+
 ## v2023.1.0 (8 Feb 2023)
 
 ### What's Changed
