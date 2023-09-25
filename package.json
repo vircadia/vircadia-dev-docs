@@ -1,7 +1,7 @@
 {
     "name": "vircadia-dev-docs",
     "productName": "Vircadia Developer Documentation",
-    "description": "Technical documentation for the Vircadia ecosystem.",
+    "description": "Technical documentation for the Vircadia open source agent-based metaverse ecosystem.",
     "version": "1.1.0",
     "private": true,
     "license": "Apache-2.0",

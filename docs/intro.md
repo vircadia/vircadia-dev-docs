@@ -5,7 +5,7 @@ slug: /
 
 # Introduction
 
-The Vircadia open source metaverse ecosystem comprises many components. [Understand the Architecture](#understand-the-architecture)
+The Vircadia open source agent-based metaverse ecosystem comprises many components. [Understand the Architecture](#understand-the-architecture)
 
 ## Why use Vircadia?
 
