@@ -23,7 +23,7 @@ Both platforms encourage real-time collaborative creation of worlds. However, Om
 
 Nvidia Omniverse is a premium toolkit for designing and developing components for 3D products. It is however closed source and requires continued licensing for many of its features. Also, due to its proprietary nature, if Nvidia decides to stop developing Omniverse, the cost and burden of migrating to a new development pipeline is borne by the user.
 
-Vircadia however uses the [Apache 2.0](https://github.com/vircadia/vircadia/blob/master/LICENSE) open source license which is a good benefit to project security as it helps ensure that your organization can maintain its copy of the code even if the maintainer stops supporting it. It also has the added benefit of being able to keep all code changes closed source if desired. This allows organizations to maintain a competitive advantage or heightened code-security.
+Vircadia however uses the [Apache 2.0](https://github.com/vircadia/vircadia-native-core/blob/master/LICENSE) open source license which is a good benefit to project security as it helps ensure that your organization can maintain its copy of the code even if the maintainer stops supporting it. It also has the added benefit of being able to keep all code changes closed source if desired. This allows organizations to maintain a competitive advantage or heightened code-security.
 
 ## Deployment
 
