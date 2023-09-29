@@ -2,7 +2,8 @@
     "name": "vircadia-dev-docs",
     "productName": "Vircadia Developer Documentation",
     "description": "Technical documentation for the Vircadia open source agent-based metaverse ecosystem.",
-    "version": "1.1.0",
+    "homepage": "https://docs.vircadia.dev",
+    "version": "1.1.1",
     "private": true,
     "license": "Apache-2.0",
     "scripts": {
@@ -17,8 +18,8 @@
         "write-heading-ids": "docusaurus write-heading-ids"
     },
     "dependencies": {
-        "@docusaurus/core": "^2.3.1",
-        "@docusaurus/preset-classic": "^2.3.1",
+        "@docusaurus/core": "^2.4.3",
+        "@docusaurus/preset-classic": "^2.4.3",
         "@mdx-js/react": "^1.6.21",
         "@svgr/webpack": "^5.5.0",
         "clsx": "^1.1.1",

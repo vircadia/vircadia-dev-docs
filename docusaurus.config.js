@@ -4,17 +4,19 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const packageJson =  require('./package.json');
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Vircadia Developer Docs',
-    tagline: 'Vircadia Technical Documentation',
-    url: 'https://docs.vircadia.dev',
+    title: packageJson.productName,
+    tagline: packageJson.productName,
+    url: packageJson.homepage,
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'vircadia', // Usually your GitHub org/user name.
-    projectName: 'vircadia-dev-docs', // Usually your repo name.
+    projectName: packageJson.name, // Usually your repo name.
 
     i18n: {
         defaultLocale: 'en',

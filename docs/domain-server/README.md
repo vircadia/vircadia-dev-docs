@@ -13,6 +13,7 @@ The Vircadia Domain server (codename Athena) is developed in this [repository](h
     1. [VCPKG](https://github.com/microsoft/vcpkg)
     1. [CMake](https://cmake.org/)
 
+### [Hosting](host/README.md)
 ### [Command Line Parameters](./command-line-parameters.md)
 ### [Environment Variables](./environment-variables.md)
 
