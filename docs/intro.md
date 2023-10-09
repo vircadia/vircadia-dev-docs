@@ -77,7 +77,7 @@ Vircadia maintains metaverse services to connect users and servers together.
 
 ![alt text](_images/services.png)
 
-## Release Cycle
+## Project Naming and Release Cycle
 
 Vircadia's primary components are released in the following order:
 
@@ -89,6 +89,10 @@ Vircadia's primary components are released in the following order:
 4. The release branch is merged into master if there were any revisions made. The branch does not get deleted afterwards.
 
 Components that are early in their development cycle are updated instantly and independently, usually with little testing. This is to allow for quick and agile development.
+
+### Naming
+
+Vircadia major components have codenames named after [major Greek Gods and Goddesses](https://en.wikipedia.org/wiki/List_of_Greek_mythological_figures#Major_gods_and_goddesses). Minor components (possibly temporary) are named after [primordial deities](https://en.wikipedia.org/wiki/Greek_primordial_deities) and their children.
 
 :::tip Note
 
