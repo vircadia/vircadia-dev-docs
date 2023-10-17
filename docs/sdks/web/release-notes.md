@@ -1,6 +1,17 @@
 # Release Notes
 
 
+## v2023.1.2 (17 Oct 2023)
+
+### What's Changed
+* Export missing types. by @Gigabyte5671 in [#271](https://github.com/vircadia/vircadia-web-sdk/pull/271)
+
+### New Contributors
+* @Gigabyte5671 made their first contribution in [#271](https://github.com/vircadia/vircadia-web-sdk/pull/271)
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.1...v2023.1.2)
+
+
 ## v2023.1.1 (22 Mar 2023)
 
 ### What's Changed
