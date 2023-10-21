@@ -1,5 +1,13 @@
 # Release Notes
 
+## v2023.1.3 (21 Oct 2023)
+
+### What's Changed
+* Fix handling of metaverse base URL that doesn't have a path. by @ctrlaltdavid in [274](https://github.com/vircadia/vircadia-web-sdk/pull/274)
+
+
+[Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.2...v2023.1.3)
+
 
 ## v2023.1.2 (17 Oct 2023)
 
