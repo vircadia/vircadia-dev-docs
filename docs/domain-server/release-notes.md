@@ -2,7 +2,7 @@
 
 ## 2022.1.2 (25/09/2023)
 
-## What's Changed
+### What's Changed
 
 - Bump plist from 3.0.1 to 3.0.4 in /screenshare by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1618
 - Downgraded GHA Windows environment to Server 2019. by @namark in https://github.com/vircadia/vircadia-native-core/pull/1616

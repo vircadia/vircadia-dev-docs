@@ -2,7 +2,7 @@
 
 ## v2023.2.1 (11/02/2023)
 
-## What's Changed
+### What's Changed
 
 - Add initial LOD functionality. by @digisomni in https://github.com/vircadia/vircadia-web/pull/185
 - Update to latest Web SDK and remove old vircadia-web-sdk.d.ts file. by @ctrlaltdavid in https://github.com/vircadia/vircadia-web/pull/194
@@ -16,7 +16,7 @@
 
 ## v2023.2.0 (10/09/2023)
 
-## What's Changed
+### What's Changed
 
 - Bring `UI` branch up to speed with `master`. by @Gigabyte5671 in https://github.com/vircadia/vircadia-web/pull/146
 - Bring `engine` branch up to speed with `master`. by @Gigabyte5671 in https://github.com/vircadia/vircadia-web/pull/147
@@ -50,7 +50,7 @@
 
 ## v2023.1.0 (09/03/2023)
 
-## What's Changed
+### What's Changed
 
 - UI tweaks and solve ImageEntity bug. by @Madders in https://github.com/vircadia/vircadia-web/pull/101
 - Allow the URL auto-update frequency to be configured. by @Madders in https://github.com/vircadia/vircadia-web/pull/103
@@ -70,7 +70,7 @@
 
 ## v2022.1.0 (03/01/2023)
 
-#### What's Changed
+### What's Changed
 
 - Various UX improvements. [#28](https://github.com/vircadia/vircadia-web/pull/28)
 - Update overlay manager. [#26](https://github.com/vircadia/vircadia-web/pull/26)
