@@ -1,6 +1,22 @@
 # Release Notes
 
-## v2023.1.3 (21 Oct 2023)
+## 2024.1.0 (03 Mar 2024)
+
+### What's Changed
+* GHA ubuntu 20.04 build fixes. by @namark in https://github.com/vircadia/vircadia-native-core/pull/1752
+* Workaround for GHA Ubuntu 20.04 grub-efi-amd64-signed package issue. by @namark in https://github.com/vircadia/vircadia-native-core/pull/1757
+* Bump axios from 0.21.4 to 1.6.0 in /domain-server/resources/web/web-new by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1763
+* Bump @babel/traverse from 7.19.3 to 7.23.2 in /domain-server/resources/web/web-new by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1761
+* Bump @babel/traverse from 7.9.0 to 7.23.2 in /scripts/system/inventory by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1762
+* Bump electron from 22.3.24 to 22.3.25 in /screenshare by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1753
+* Bump postcss from 8.4.17 to 8.4.31 in /domain-server/resources/web/web-new by @dependabot in https://github.com/vircadia/vircadia-native-core/pull/1754
+* Settings for WebRTC signaling server port and ICE server list. by @namark in https://github.com/vircadia/vircadia-native-core/pull/1768
+* Verbose logging for SSL errors in Domain Server Metaverse API requests. by @namark in https://github.com/vircadia/vircadia-native-core/pull/1759
+
+
+**Full Changelog**: https://github.com/vircadia/vircadia-native-core/compare/2022.1.2...2024.1.0
+
+## 2023.1.3 (21 Oct 2023)
 
 ### What's Changed
 
@@ -8,7 +24,7 @@
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.2...v2023.1.3)
 
-## v2023.1.2 (17 Oct 2023)
+## 2023.1.2 (17 Oct 2023)
 
 ### What's Changed
 
@@ -20,7 +36,7 @@
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.1...v2023.1.2)
 
-## v2023.1.1 (22 Mar 2023)
+## 2023.1.1 (22 Mar 2023)
 
 ### What's Changed
 
@@ -29,7 +45,7 @@
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2023.1.0...v2023.1.1)
 
-## v2023.1.0 (8 Feb 2023)
+## 2023.1.0 (8 Feb 2023)
 
 ### What's Changed
 
@@ -49,7 +65,7 @@
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.18...v2023.1.0)
 
-## v2022.1.18 (15 Nov 2022)
+## 2022.1.18 (15 Nov 2022)
 
 Audio output improvements and an entity reading bug fix.
 
@@ -60,7 +76,7 @@ Audio output improvements and an entity reading bug fix.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.17...v2022.1.18)
 
-## v2022.1.17 (20 Oct 2022)
+## 2022.1.17 (20 Oct 2022)
 
 Audio output improvements.
 
@@ -71,7 +87,7 @@ Audio output improvements.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.16...v2022.1.17)
 
-## v2022.1.16 (10 Oct 2022)
+## 2022.1.16 (10 Oct 2022)
 
 Fixed audio input sampling for Firefox.
 
@@ -81,7 +97,7 @@ Fixed audio input sampling for Firefox.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.15...v2022.1.16)
 
-## v2022.1.15 (5 Oct 2022)
+## 2022.1.15 (5 Oct 2022)
 
 Improve audio output buffering for better quality audio.
 
@@ -91,7 +107,7 @@ Improve audio output buffering for better quality audio.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.14...v2022.1.15)
 
-## v2022.1.14 (26 Sep 2022)
+## 2022.1.14 (26 Sep 2022)
 
 Fix avatar skeleton data handling.
 
@@ -101,7 +117,7 @@ Fix avatar skeleton data handling.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.13...v2022.1.14)
 
-## v2022.1.13 (15 Sep 2022)
+## 2022.1.13 (15 Sep 2022)
 
 Add AudioMixer avatar orientation getter property.
 
@@ -111,7 +127,7 @@ Add AudioMixer avatar orientation getter property.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.12...v2022.1.13)
 
-## v2022.1.12 (31 Aug 2022)
+## 2022.1.12 (31 Aug 2022)
 
 Improves making a connection to a domain.
 
@@ -121,7 +137,7 @@ Improves making a connection to a domain.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.11...v2022.1.12)
 
-## v2022.1.11 (30 Aug 2022)
+## 2022.1.11 (30 Aug 2022)
 
 Improves network connectivity.
 
@@ -132,7 +148,7 @@ Improves network connectivity.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.10...v2022.1.11)
 
-## v2022.1.10 (30 Aug 2022)
+## 2022.1.10 (30 Aug 2022)
 
 Provides non-admin facilities for the "People" app: users' audio loudness, set volumes for each user, mute a user, ignore a user, request data continue to be provided for muted / ignored users.
 
@@ -143,7 +159,7 @@ Provides non-admin facilities for the "People" app: users' audio loudness, set v
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.9...v2022.1.10)
 
-## v2022.1.9 (25 Aug 2922)
+## 2022.1.9 (25 Aug 2922)
 
 Improves connectivity to the domain server &mdash; domain server restarts, assignment client restarts, network interruptions.
 
@@ -158,7 +174,7 @@ Improves connectivity to the domain server &mdash; domain server restarts, assig
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.8...v2022.1.9)
 
-## v2022.1.8 (17 Aug 2022)
+## 2022.1.8 (17 Aug 2022)
 
 Provides the Material, Zone, and ParticleEffect entities in the domain.
 
@@ -174,7 +190,7 @@ Provides the Material, Zone, and ParticleEffect entities in the domain.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.7...v2022.1.8)
 
-## v2022.1.7 (9 Aug 2022)
+## 2022.1.7 (9 Aug 2022)
 
 Provides the Image, Light, Text, and Web entities in the domain.
 
@@ -190,7 +206,7 @@ Provides the Image, Light, Text, and Web entities in the domain.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.6...v2022.1.7)
 
-## v2022.1.6 (1 Aug 2022)
+## 2022.1.6 (1 Aug 2022)
 
 Provides the Model and Shape entities in the domain.
 
@@ -206,7 +222,7 @@ Provides the Model and Shape entities in the domain.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.5...v2022.1.6)
 
-## v2022.1.5 (5 Jul 2022)
+## 2022.1.5 (5 Jul 2022)
 
 Handles the default domain viewpoint path (/) when connecting to a domain, Additionally, a path can be specified in the URL being connected to, e.g., `wss://n.n.n.n:40102/somewhere`.
 
@@ -218,7 +234,7 @@ Handles the default domain viewpoint path (/) when connecting to a domain, Addit
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.4...v2022.1.5)
 
-## v2022.1.4 (28 Jun 2022)
+## 2022.1.4 (28 Jun 2022)
 
 Fixes bad build of 2022.1.3 release.
 
@@ -229,7 +245,7 @@ Fixes bad build of 2022.1.3 release.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.3...v2022.1.4)
 
-## v2022.1.3 (27 Jun 2022)
+## 2022.1.3 (27 Jun 2022)
 
 ### What's Changed
 
@@ -262,7 +278,7 @@ Fixes bad build of 2022.1.3 release.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.2...v2022.1.3)
 
-## v2022.1.2 (6 Feb 2022)
+## 2022.1.2 (6 Feb 2022)
 
 ### What's Changed
 
@@ -278,7 +294,7 @@ Fixes bad build of 2022.1.3 release.
 
 [Full Changelog](https://github.com/vircadia/vircadia-web-sdk/compare/v2022.1.0...v2022.1.2)
 
-## v2022.1.0 (3 Dec 2021)
+## 2022.1.0 (3 Dec 2021)
 
 ### Enhancements
 

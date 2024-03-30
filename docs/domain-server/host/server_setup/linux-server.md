@@ -10,11 +10,11 @@ You can run these same commands on an existing Vircadia domain to upgrade it if 
 
 #### Download
 ```sh
-wget https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.2/vircadia-server_1750-20230922-50b2485-0ubuntu1-1_amd64.deb
+wget https://github.com/vircadia/vircadia-native-core/releases/download/2024.1.0/vircadia-server_2024.1.0-20240303-9761de1-0ubuntu1-1_amd64.deb
 ```
 #### Update System & Install
 ```sh
-sudo apt-get update && sudo apt-get install ./vircadia-server_1750-20230922-50b2485-0ubuntu1-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./vircadia-server_2024.1.0-20240303-9761de1-0ubuntu1-1_amd64.deb
 ```
 
 ### Unlisted Distribution

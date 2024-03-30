@@ -27,12 +27,12 @@ Internet.
 2.  Run the following command to download the server package:
 
     ```sh
-    wget https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.2/vircadia-server_1750-20230922-50b2485-0ubuntu1-1_amd64.deb
+    wget https://github.com/vircadia/vircadia-native-core/releases/download/2024.1.0/vircadia-server_2024.1.0-20240303-9761de1-0ubuntu1-1_amd64.deb
     ```
 3.  Then run this command to update the package index and install the server:
     
     ```sh
-    sudo apt-get update && sudo apt-get install ./vircadia-server_1750-20230922-50b2485-0ubuntu1-1_amd64.deb
+    sudo apt-get update && sudo apt-get install ./vircadia-server_2024.1.0-20240303-9761de1-0ubuntu1-1_amd64.deb
     ```
 
 4.  Go to *http://[IP address of your server]:40100/* in your web
