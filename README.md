@@ -29,3 +29,17 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Cloning with Submodules
+
+To clone this repository including all submodules, use the following command:
+
+```sh
+git clone --recursive https://github.com/vircadia/vircadia-dev-docs.git
+```
+
+If you forgot to clone with the submodules, you can initialize and update them with:
+
+```sh
+git submodule update --init --recursive
+```

@@ -31,6 +31,7 @@ const config = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
                     editUrl: 'https://github.com/vircadia/vircadia-dev-docs/edit/master/',
+                    exclude: [],
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
