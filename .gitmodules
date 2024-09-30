@@ -4,3 +4,6 @@
 [submodule "docs/ecosystem/vircadia-world-core"]
 	path = docs/ecosystem/vircadia-world-core
 	url = https://github.com/vircadia/vircadia-world.git
+[submodule "docs/ecosystem/server"]
+	path = docs/ecosystem/server
+	url = https://github.com/vircadia/vircadia-world-server.git
