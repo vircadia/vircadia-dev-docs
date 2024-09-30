@@ -1,9 +1,9 @@
 [submodule "docs/ecosystem/tools/blender"]
 	path = docs/ecosystem/tools/blender
 	url = https://github.com/vircadia/vircadia-world-blender-tools.git
-[submodule "docs/ecosystem/client/typescript"]
-	path = docs/ecosystem/client/typescript
-	url = https://github.com/vircadia/vircadia-world.git
 [submodule "docs/ecosystem/server"]
 	path = docs/ecosystem/server
 	url = https://github.com/vircadia/vircadia-world-server.git
+[submodule "docs/ecosystem/sdk/typescript"]
+	path = docs/ecosystem/sdk/typescript
+	url = https://github.com/vircadia/vircadia-world-sdk-ts.git
