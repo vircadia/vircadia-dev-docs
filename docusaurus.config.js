@@ -66,28 +66,15 @@ const config = {
             style: 'dark',
             links: [
                 {
-                    title: 'More Docs',
+                    title: 'Support',
                     items: [
                         {
-                            label: 'User Docs',
-                            to: 'https://docs.vircadia.com/'
-                        }
-                    ],
-                },
-                {
-                    title: 'Community',
-                    items: [
-                        {
-                            label: 'Forum',
-                            href: 'https://forum.vircadia.com/'
+                            label: 'Developer Support',
+                            href: 'https://vircadia.com/#contact'
                         },
                         {
                             label: 'Discord',
                             href: 'https://discordapp.com/invite/Pvx2vke'
-                        },
-                        {
-                            label: 'Matrix',
-                            href: 'https://matrix.to/#/#vircadia:matrix.vircadia.org'
                         }
                     ],
                 },
