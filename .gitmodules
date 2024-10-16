@@ -7,3 +7,6 @@
 [submodule "docs/ecosystem/sdk/typescript"]
 	path = docs/ecosystem/sdk/typescript
 	url = https://github.com/vircadia/vircadia-world-sdk-ts.git
+[submodule "docs/ecosystem/sdk/python"]
+	path = docs/ecosystem/sdk/python
+	url = https://github.com/vircadia/vircadia-world-sdk-py.git
